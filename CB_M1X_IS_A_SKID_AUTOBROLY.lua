@@ -97,10 +97,5 @@ if table.find(Blacklist, game:GetService("Players").LocalPlayer.UserId) then
     print("Imagine Blacklisting ppl")
     wait(1)
 end
-    coroutine.resume(coroutine.create(function()
-game:GetService('RunService').RenderStepped:Connect(function()
-    if sus == syn.request then
-        print('You are not whitelisted, Message Ent#6666')
-    end
 end)
 end))
